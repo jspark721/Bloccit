@@ -20,3 +20,6 @@ require "random_data"
  puts "Seed finished"
  puts "#{Post.count} posts created"
  puts "#{Comment.count} comments created"
+
+Question.find_or_create_by(title: "What city do you want to live in?", body: "Pick a city anywhere in the world.")
+Question.find_or_create_by(title: "Favorite NFL team?", body: "Pick your number one NFL team!")
