@@ -8,7 +8,7 @@
  gem 'bcrypt'
 
  gem 'figaro', '1.0'
- 
+
  group :production do
    gem 'pg'
    gem 'rails_12factor'
@@ -21,6 +21,7 @@
  group :development, :test do
    gem 'rspec-rails', '~> 3.0'
    gem 'shoulda'
+   gem 'factory_girl_rails', '~> 4.0'
  end
 
  # Use SCSS for stylesheets
