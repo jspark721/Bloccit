@@ -17,9 +17,29 @@
 @import "bootstrap";
 
 .user-info {
-  margin-top: 9px;
+    margin-top: 9px;
 }
 
 .nav {
-  margin-top: 5px;
+    background-color: aliceblue;
+}
+
+.jumbotron {
+    background-color: aliceblue;
+}
+
+.top-nav {
+    font-weight: 200;
+}
+
+.three-column {
+    background-color: aliceblue;
+    border-radius: 6px;
+    margin: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.user-info {
+    padding-right: 10px;
 }
