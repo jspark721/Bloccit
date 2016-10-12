@@ -25,7 +25,7 @@ topics = Topic.all
   post = Post.create!(
     user:   users.sample,
     topic:  topics.sample,
-    title:  Faker::Hipster.sentences,
+    title:  Faker::Hipster.words(rand(5..10)).join(" "),
     body:   Faker::Hipster.paragraph(rand(1..3))
   )
 
